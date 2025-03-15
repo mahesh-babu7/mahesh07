@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-container1 {
+    background:linear-gradient(90deg, #C5ADC5 89%,#B2B5E0 98%);
+}
+
+.heading-img1 {
+    position: sticky;
+    top: 0%;
+}
+
+.heading-img1 img {
+    height: 80px;
+    width: 250px;
+    margin: 20px;
+}
+
+.heading-text h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 390px;
+    color: rgba(17, 17, 17, 0.74);
+}
+
+.heading-text1 h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: rgba(17, 17, 17, 0.74);
+}
+
+.heading-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.heading-list1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 1rem;
+    position: sticky;
+    top: 25%;
+}
+
+.heading-list a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(128, 63, 231);
+    transition: 0.2s ease-out;
+}
+
+.heading-list1 a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(128, 63, 231);
+    transition: 0.2s ease-out;
+}
+
+.heading-list a:hover {
+    color: rgb(233, 109, 60);
+}
+
+.heading-list1 a:hover {
+    color: rgb(233, 109, 60);
+}
+
+main{
+    background:linear-gradient(90deg,#B2B5E0 12%, #C5ADC5 98%);
+}
+
+.container {
+    padding: 25px 4%;
+    text-align: center;
+    height: 740px;
+    overflow: scroll;
+    margin-bottom: 3rem;
+}
+
+.container1 {
+    height: 740px;
+    margin-bottom: 3rem;
+}
+
+.container2 {
+    height: 740px;
+    margin-bottom: 3rem;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container input {
+    width: 590px;
+    padding: 12px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+.container .movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.container .movies .movies-list {
+    padding: 15px;
+    background-color: #f3f0efd3;
+    height: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    /* cursor: pointer; */
+    color: rgba(17, 17, 17, 0.808);
+}
+
+
+
+.movies-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.movies-list  h2 {
+    transition: 0.2s ease-out;
+}
+
+.movies-list h2:hover {
+    color: rgb(162, 189, 107);
+}
+
+.hover {
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+button {
+    padding: 3px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.hover:hover {
+    color: rgb(145, 145, 212);
+}
+
+.movies-list:hover {
+    transform:scale(1.1);
+    
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+}
